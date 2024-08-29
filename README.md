@@ -1,4 +1,4 @@
-# Bienvenidos a la Tarea de HTML y CSS
+deploy: https://dsaw-2024-2.github.io/my-cv-part-c-responssive-and-deployed-nicholastrsu/ 
 
 ¡Hola a todos!
 
