@@ -1,0 +1,121 @@
+body {
+    font-family: 'Abel', sans-serif;
+    background-color: #ececcd;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.foto img {
+    width: 150px;
+    height: auto;
+    border-radius: 10%;
+    margin-right: 20px;
+}
+
+.title-contact {
+    flex: 1;
+}
+
+header h1 {
+    color: #140880;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.profile, .work-experience, .jobs, .achievements, .education, .courses, .hobbies {
+    margin-bottom: 30px;
+}
+
+h4, h5 {
+    color: #140880;
+}
+
+h4 {
+    font-size: 24px;
+    border-bottom: 2px solid #140880;
+    padding-bottom: 5px;
+}
+
+h5 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+p, ul {
+    margin: 10px 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foto img {
+        width: 100px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    h4, h5 {
+        font-size: 18px;
+    }
+
+    p, ul {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-info {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+
+    p, ul {
+        font-size: 12px;
+    }
+}
